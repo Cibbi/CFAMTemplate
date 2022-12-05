@@ -13,8 +13,8 @@ namespace Cibbi.CFAM.Template
             AvaloniaXamlLoader.Load(this);
 
             AvaloniaLocator.CurrentMutable
-                .BindToSelfSingleton<PagesProvider>()
                 .BindToSelfSingleton<DialogProvider>()
+                .Bind<IPagesProvider>().ToSingleton<PagesProvider>()
                 .Bind<IViewLocator>().ToSingleton<ViewLocator>();
         }
 
