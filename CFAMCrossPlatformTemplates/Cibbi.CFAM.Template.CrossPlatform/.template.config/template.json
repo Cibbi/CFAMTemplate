@@ -28,6 +28,7 @@
   "symbols": {
     "WindowType":{
       "type": "parameter",
+        "description": "Window Type",
       "dataType":"choice",
       "defaultValue":"FluentWindow",
       "choices": [
