@@ -2,6 +2,18 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cibbi.CFAM.Template", "Cibbi.CFAM.Template\Cibbi.CFAM.Template.csproj", "{465DE7D6-CFDA-4A65-8725-B2AD0A391471}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CFAMCrossPlatformTemplates", "CFAMCrossPlatformTemplates", "{DC9894A6-E84E-4D7B-94A5-E27C417AB19C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cibbi.CFAM.Template.CrossPlatform", "CFAMCrossPlatformTemplates\Cibbi.CFAM.Template.CrossPlatform\Cibbi.CFAM.Template.CrossPlatform\Cibbi.CFAM.Template.CrossPlatform.csproj", "{7AE6987C-4947-4E92-8F12-FFE7775EEE4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cibbi.CFAM.Template.CrossPlatform.Android", "CFAMCrossPlatformTemplates\Cibbi.CFAM.Template.CrossPlatform\Cibbi.CFAM.Template.CrossPlatform.Android\Cibbi.CFAM.Template.CrossPlatform.Android.csproj", "{BBA7F70A-6E74-4DE4-91D9-729768F07100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cibbi.CFAM.Template.CrossPlatform.Desktop", "CFAMCrossPlatformTemplates\Cibbi.CFAM.Template.CrossPlatform\Cibbi.CFAM.Template.CrossPlatform.Desktop\Cibbi.CFAM.Template.CrossPlatform.Desktop.csproj", "{B34BDF1D-4AE6-4172-A100-B1D6E66F34E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cibbi.CFAM.Template.CrossPlatform.iOS", "CFAMCrossPlatformTemplates\Cibbi.CFAM.Template.CrossPlatform\Cibbi.CFAM.Template.CrossPlatform.iOS\Cibbi.CFAM.Template.CrossPlatform.iOS.csproj", "{0EEC2192-968F-4B4B-B5C1-E635B257081C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cibbi.CFAM.Template.CrossPlatform.Browser", "CFAMCrossPlatformTemplates\Cibbi.CFAM.Template.CrossPlatform\Cibbi.CFAM.Template.CrossPlatform.Browser\Cibbi.CFAM.Template.CrossPlatform.Browser.csproj", "{CE3993D1-821B-410B-9E7D-CE392AD4C217}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +24,32 @@ Global
 		{465DE7D6-CFDA-4A65-8725-B2AD0A391471}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{465DE7D6-CFDA-4A65-8725-B2AD0A391471}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{465DE7D6-CFDA-4A65-8725-B2AD0A391471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AE6987C-4947-4E92-8F12-FFE7775EEE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AE6987C-4947-4E92-8F12-FFE7775EEE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AE6987C-4947-4E92-8F12-FFE7775EEE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AE6987C-4947-4E92-8F12-FFE7775EEE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA7F70A-6E74-4DE4-91D9-729768F07100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA7F70A-6E74-4DE4-91D9-729768F07100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA7F70A-6E74-4DE4-91D9-729768F07100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA7F70A-6E74-4DE4-91D9-729768F07100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B34BDF1D-4AE6-4172-A100-B1D6E66F34E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34BDF1D-4AE6-4172-A100-B1D6E66F34E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34BDF1D-4AE6-4172-A100-B1D6E66F34E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34BDF1D-4AE6-4172-A100-B1D6E66F34E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EEC2192-968F-4B4B-B5C1-E635B257081C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EEC2192-968F-4B4B-B5C1-E635B257081C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EEC2192-968F-4B4B-B5C1-E635B257081C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EEC2192-968F-4B4B-B5C1-E635B257081C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE3993D1-821B-410B-9E7D-CE392AD4C217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE3993D1-821B-410B-9E7D-CE392AD4C217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE3993D1-821B-410B-9E7D-CE392AD4C217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE3993D1-821B-410B-9E7D-CE392AD4C217}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7AE6987C-4947-4E92-8F12-FFE7775EEE4D} = {DC9894A6-E84E-4D7B-94A5-E27C417AB19C}
+		{BBA7F70A-6E74-4DE4-91D9-729768F07100} = {DC9894A6-E84E-4D7B-94A5-E27C417AB19C}
+		{B34BDF1D-4AE6-4172-A100-B1D6E66F34E6} = {DC9894A6-E84E-4D7B-94A5-E27C417AB19C}
+		{0EEC2192-968F-4B4B-B5C1-E635B257081C} = {DC9894A6-E84E-4D7B-94A5-E27C417AB19C}
+		{CE3993D1-821B-410B-9E7D-CE392AD4C217} = {DC9894A6-E84E-4D7B-94A5-E27C417AB19C}
 	EndGlobalSection
 EndGlobal

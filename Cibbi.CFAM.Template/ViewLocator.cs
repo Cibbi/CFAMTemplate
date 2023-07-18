@@ -7,8 +7,16 @@ namespace Cibbi.CFAM.Template
 {
     public class ViewLocator : IViewLocator
     {
+#if (WindowType == 'SimpleWindow')
+        public static MainSimpleWindowViewModel MainViewModel { get; } = new() {WindowName = "Cibbi.CFAM" , Content = new MainContentViewModel() };
+        public static MainSimpleWindow MainWindow { get; } = new(){DataContext = MainViewModel};
+#endif
+        
+#if (WindowType == 'FluentWindow')
         public static MainFluentWindowViewModel MainViewModel { get; } = new() {WindowName = "Cibbi.CFAM"};
         public static MainFluentWindow MainWindow { get; } = new(){DataContext = MainViewModel};
+#endif
+        
         public static ViewLocator Current { get; } = new();
         
         public IViewFor ResolveView<T>(T viewModel, string? contract = null)

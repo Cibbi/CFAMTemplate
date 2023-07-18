@@ -1,17 +1,17 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Cibbi",
-  "classifications": [ "Common", "Avalonia" ],
-  "identity": "Cibbi.CFAM.CSharp",
+  "classifications": [ "Common", "Avalonia", "CrossPlatform" ],
+  "identity": "Cibbi.CFAM.CrossPlatform.CSharp",
   "groupIdentity": "Cibbi.CFAM",
-  "name": "FluentAvalonia App with ReactiveUI",
-  "shortName": "CFAM",
+  "name": "FluentAvalonia Cross Platform App with ReactiveUI",
+  "shortName": "CFAM.CrossPlatform",
   "tags": {
     "language": "C#",
-    "type": "project"
+    "type": "project",
   },
   "placeholderFilename": ".keep",
-  "sourceName": "Cibbi.CFAM.Template",
+  "sourceName": "Cibbi.CFAM.Template.CrossPlatform",
   "preferNameDirectory": true,
   "sources": [
     {
@@ -19,7 +19,7 @@
         {
           "condition": "(WindowType != 'FluentWindow')",
           "exclude": [
-            "ViewModels/MainContentViewModel.cs"
+            "Cibbi.CFAM.Template.CrossPlatform/ViewModels/MainContentViewModel.cs"
           ]
         }
       ]
