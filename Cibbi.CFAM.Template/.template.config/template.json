@@ -24,7 +24,7 @@
         }
       ]
     }
-  ]
+  ],
   "symbols": {
     "WindowType":{
       "type": "parameter",
@@ -39,6 +39,7 @@
           "choice": "FluentWindow",
           "description":"Fluent Window"
         }
+      ]
     }
   }
 }
