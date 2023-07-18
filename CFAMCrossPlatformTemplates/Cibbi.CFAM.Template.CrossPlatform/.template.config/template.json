@@ -30,6 +30,7 @@
       "type": "parameter",
         "description": "Window Type",
       "dataType":"choice",
+      "replaces": "WindowTypeParameter",
       "defaultValue":"FluentWindow",
       "choices": [
         {
